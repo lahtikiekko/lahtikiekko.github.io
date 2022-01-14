@@ -1,0 +1,8 @@
+function init() {
+Tabletop.init( { key: ‘https://docs.google.com/spreadsheets/d/e/2PACX-1vTbEZL0YcRINcwX5i4HlIWGDenNDaGh60o36RWUHmrqTJGh2bAQp_hd6QBZC_LURchfwVaVT_0gxVdm/pubhtml',
+callback: function(data, tabletop) {
+console.log(data)
+},
+simpleSheet: true } )
+}
+window.addEventListener(‘DOMContentLoaded’, init)
